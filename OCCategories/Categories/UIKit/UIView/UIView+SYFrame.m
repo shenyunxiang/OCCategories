@@ -86,5 +86,26 @@
     self.center = CGPointMake(self.sy_centerX, sy_centerY);
 }
 
+- (CGPoint)sy_origin{
+    return self.frame.origin;
+}
+
+- (void)setSy_origin:(CGPoint)sy_origin{
+    CGRect frame = self.frame;
+    frame.origin = sy_origin;
+    self.frame = frame;
+}
+
+- (CGSize)sy_size{
+    return self.frame.size;
+}
+
+- (void)setSy_size:(CGSize)sy_size{
+    CGRect frame = self.frame;
+    frame.size = sy_size;
+    self.frame = frame;
+}
+
+
 
 @end

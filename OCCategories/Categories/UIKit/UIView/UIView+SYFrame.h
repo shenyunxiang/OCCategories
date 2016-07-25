@@ -26,4 +26,8 @@
 
 @property(nonatomic, assign) CGFloat    sy_centerY;
 
+@property(nonatomic, assign) CGPoint    sy_origin;
+
+@property(nonatomic, assign) CGSize    sy_size;
+
 @end
