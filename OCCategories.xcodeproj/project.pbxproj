@@ -16,6 +16,7 @@
 		09A137CC1D459FD9000E2BF0 /* OCCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A137CB1D459FD9000E2BF0 /* OCCategoriesTests.m */; };
 		09A137D71D459FD9000E2BF0 /* OCCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A137D61D459FD9000E2BF0 /* OCCategoriesUITests.m */; };
 		09A137E91D45B9B0000E2BF0 /* UIView+SYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A137E81D45B9B0000E2BF0 /* UIView+SYFrame.m */; };
+		09A137EC1D45F02B000E2BF0 /* UIView+ViewShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A137EB1D45F02B000E2BF0 /* UIView+ViewShortcut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		09A137D81D459FD9000E2BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09A137E71D45B9B0000E2BF0 /* UIView+SYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYFrame.h"; sourceTree = "<group>"; };
 		09A137E81D45B9B0000E2BF0 /* UIView+SYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYFrame.m"; sourceTree = "<group>"; };
+		09A137EA1D45F02B000E2BF0 /* UIView+ViewShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewShortcut.h"; sourceTree = "<group>"; };
+		09A137EB1D45F02B000E2BF0 /* UIView+ViewShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewShortcut.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 			children = (
 				09A137E71D45B9B0000E2BF0 /* UIView+SYFrame.h */,
 				09A137E81D45B9B0000E2BF0 /* UIView+SYFrame.m */,
+				09A137EA1D45F02B000E2BF0 /* UIView+ViewShortcut.h */,
+				09A137EB1D45F02B000E2BF0 /* UIView+ViewShortcut.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				09A137B61D459FD9000E2BF0 /* AppDelegate.m in Sources */,
 				09A137E91D45B9B0000E2BF0 /* UIView+SYFrame.m in Sources */,
 				09A137B31D459FD9000E2BF0 /* main.m in Sources */,
+				09A137EC1D45F02B000E2BF0 /* UIView+ViewShortcut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +534,7 @@
 				09A137DD1D459FD9000E2BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09A137DE1D459FD9000E2BF0 /* Build configuration list for PBXNativeTarget "OCCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +543,7 @@
 				09A137E01D459FD9000E2BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09A137E11D459FD9000E2BF0 /* Build configuration list for PBXNativeTarget "OCCategoriesUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +552,7 @@
 				09A137E31D459FD9000E2BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
